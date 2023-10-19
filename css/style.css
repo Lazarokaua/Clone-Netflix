@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 1440px;
+    padding: 25px 60px;
+    align-items: center;
+    gap: 530px;
+}
+    
+header img{
+    width: 111px;
+    height: 29.998px;
+    cursor: pointer;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin: 193px 0 273px 0;
+    
+}
+    
+section h1{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Netflix Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2{
+    color: #6D6D6EB2;
+    text-align: center;
+    font-family: Netflix Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.user h2{
+    cursor: default;
+}
+
+.iconuser{
+    cursor: pointer;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 10px;
+    border: 1px solid #808080;
+    color: #808080;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #808080;
+    color: black;
+}
